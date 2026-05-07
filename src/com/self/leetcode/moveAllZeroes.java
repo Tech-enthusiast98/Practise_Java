@@ -2,7 +2,10 @@ package com.self.leetcode;
 
 public class moveAllZeroes {
     public static void main(String[] args) {
-        int[] nums= {1,4,0,0,2,0,3,};
+        //move all the zeros to right
+        //{1,6,0,0,2,0,3,4}
+        //{1,6,2,3,4,0,0,0}
+        int[] nums= {1,6,0,0,2,0,3,4};
         int j = 0; // Pointer to place the next non-zero element
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
