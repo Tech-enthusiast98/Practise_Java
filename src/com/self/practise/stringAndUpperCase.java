@@ -1,6 +1,6 @@
 package com.self.practise;
 
-public class solutionStringAndUpperCase {
+public class stringAndUpperCase {
 
     public static String stringReformat(String s, int k) {
         // Write your code here
