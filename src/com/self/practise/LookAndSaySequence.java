@@ -1,7 +1,7 @@
 package com.self.practise;
 
 
-public class solutionForLookAndSaySequence {
+public class LookAndSaySequence {
 
     public static String lookAndSaySequence(int n) {
         if(n==1){
